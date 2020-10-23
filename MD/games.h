@@ -8,12 +8,12 @@
 using namespace std;
 
 class Game : public Media {
- public:
+ public: //public function prototypes
   Game();
   virtual int getType();
   char* getPublisher();
   char* getRating();
- private:
+ private: //private variables
   char publisher[30];
   char rating[10];
 };
