@@ -9,13 +9,13 @@ using namespace std;
 
 class Music : public Media
 {
- public:
+ public: //public function prototypes
   Music();
   virtual int getType();
   char* getArtist();
   int* getDuration();
   char* getPublisher();
- private:
+ private: //private variables
   char artist[30];
   int duration;
   char publisher[30];
