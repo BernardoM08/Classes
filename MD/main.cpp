@@ -1,7 +1,5 @@
 /*
-
-
-
+c++ static cast from https://www.geeksforgeeks.org/static_cast-in-c-type-casting-operators/
 */
 
 #include <iostream>
