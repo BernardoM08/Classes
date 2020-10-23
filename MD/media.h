@@ -7,12 +7,12 @@
 using namespace std;
 
 class Media {
- public:
+ public: //public function prototypes
   Media();
   virtual int getType();
   int* getYear();
   char* getTitle();
- private:
+ private: //private variables
   int year;
   char title[30];
 };
