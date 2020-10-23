@@ -7,6 +7,7 @@ Media::Media()
   
 }
 
+//getters
 int Media::getType()
 {
   return 0;
