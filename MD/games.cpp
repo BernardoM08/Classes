@@ -8,6 +8,7 @@ Game::Game()
 
 }
 
+// getters
 int Game::getType()
 {
   return 0;
