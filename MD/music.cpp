@@ -10,6 +10,7 @@ Music::Music()
 
 }
 
+//getters
 int Music::getType()
 {
   return 1;
