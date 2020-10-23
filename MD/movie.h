@@ -9,13 +9,13 @@ using namespace std;
 
 class Movie : public Media
 {
- public:
+ public: //public function prototypes
   Movie();
   virtual int getType();
   char* getDirector();
   int* getDuration();
   char* getRating();
- private:
+ private: //private variables
   char director[30];
   int duration;
   char rating[10];
