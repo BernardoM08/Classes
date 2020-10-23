@@ -10,6 +10,7 @@ Movie::Movie()
 
 }
 
+// getters
 int Movie::getType()
 {
   return 2;
